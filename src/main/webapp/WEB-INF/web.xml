@@ -1,0 +1,28 @@
+
+
+
+
+
+  
+<web-app>
+  <welcome-file-list>
+    <welcome-file>calculator.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+  <servlet-name>calcy</servlet-name>
+  <servlet-class>com.calc.servlets.CalcServ</servlet-class>
+</servlet>
+  
+  <servlet-mapping>
+  <servlet-name>calcy</servlet-name>
+  <url-pattern>/CalcServ</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

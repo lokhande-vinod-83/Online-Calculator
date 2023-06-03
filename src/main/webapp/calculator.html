@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Insert title here</title>
+		<link rel="stylesheet" href="calculator.css" >
+	</head>
+	<body>
+		<div class="calculator">     
+			<h2>Calculator</h2>
+			
+			<form action="CalcServ" method="post">
+			
+			
+			
+			
+			<table>
+				<tr> <td><label>Enter First Number:</label></td> <td><input type="text" name="num1" id="num1"></td></tr>						
+				
+				<tr> <td><label>Enter Second Number:</label> </td> <td> <input type="text" name="num2" id="num2"> </td> </tr>
+				
+				<tr> <td> <label>Select Operation:</label></td>  
+					<td class="btn">
+						<input type="radio" name="op" value="+">+
+						<input type="radio" name="op" value="-">-
+						<input type="radio" name="op" value="*">*
+						<input type="radio" name="op" value="/">/
+						<input type="radio" name="op" value="%">%
+					</td>
+				</tr>
+				
+				<tr><td></td> <td><input type="submit" value="Calculate"></td></tr>
+								
+			</table>
+			</form>
+		</div>
+	</body>
+</html>
